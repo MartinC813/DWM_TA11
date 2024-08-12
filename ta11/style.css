@@ -1,0 +1,16 @@
+.impar{
+    background-color: pink;
+    font-family: Verdana, sans-serif ; /*No pongo DejaVu Sans por aclaracion del profe*/
+}
+.tercero{
+    font-size: 24px; /*En este caso no me afecta la especificidad porque no busco cambiar el color aca*/
+}
+#segundo{
+    color: blue;
+    font-size: 36px;
+}
+#cuarto{
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
